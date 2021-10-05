@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="bg-gray gecko linux js" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+            Study
+            - AnkiWeb
+        
+    </title>
+
+    <link rel="stylesheet" href="PT.4a_files/bootstrap.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="PT.4a_files/app.css" type="text/css" media="screen">
+
+    
+    <style>
+        .card img {
+            max-width: 95%;
+        }
+
+        .invisible {
+            display: none;
+        }
+
+        #leftStudyMenu {
+            float: left;
+        }
+
+        #rightStudyMenu {
+            float: right;
+            font-size: 16px;
+        }
+
+        #ansarea {
+            min-height: 6rem;
+            background: white;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        #ansarea-pad {
+            min-height: 6rem;
+        }
+
+        #quiz {
+            display: none;
+        }
+
+        #fulldesc {
+            display: none;
+        }
+
+        hr {
+            color: #eee;
+            background-color: #e1e1e1;
+            height: 1px;
+            border: 0;
+        }
+
+        #qa {
+            margin-top: 30px;
+        }
+
+        .card { border: 0; }
+
+        html { background: white !important; }
+    </style>
+
+
+        <!-- base href="https://ankiuser.net/study/media/" -->
+
+    
+
+<script>try {
+                        Object.defineProperty(screen, "availTop", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availLeft", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availWidth", { value: 1536 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availHeight", { value: 960 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "colorDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (X11)" });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 134
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 134
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = 389
+            } catch (e) { }
+        
+            try {
+                window.screenX = 475
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 475
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 450
+            } catch (e) { }
+        </script></head>
+<body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-gray">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://ankiweb.net/"><span class="align-middle">AnkiWeb</span> <img id="logo" src="PT.4a_files/anki-logo2.png" width="32" height="32"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item "><a href="https://ankiweb.net/decks/" class="nav-link">Decks</a></li>
+                        <li class="nav-item "><a href="https://ankiuser.net/edit/" class="nav-link">Add</a></li>
+                        <li class="nav-item "><a href="https://ankiweb.net/search/" class="nav-link">Search</a>
+                        </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a href="https://ankiweb.net/account/settings" class="nav-link">Account</a>
+                        </li>
+                        <li class="nav-item"><a href="https://ankiweb.net/account/logout" class="nav-link">Log out</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<main class="container">
+
+    
+
+
+
+<div id="overview" style="display: none;">
+
+    <h1>Peter Thomas</h1>
+
+
+
+    <p>
+        </p><div class="row">
+            <div class="col-2">New</div>
+            <div class="col-2"><b><font color="#00a">0</font></b></div>
+        </div>
+        <div class="row">
+            <div class="col-2">In Learning</div>
+            <div class="col-2"><b><font color="#a00">2</font></b></div>
+        </div>
+        <div class="row">
+            <div class="col-2">To Review</div>
+            <div class="col-2"><b><font color="#0a0">27</font></b></div>
+        </div>
+
+        <div class="py-3">
+            <button id="studynow" onclick="return study.initStudy();" class="btn btn-primary btn-lg">Study Now</button>
+        </div>
+
+        <p>
+            <a target="_parent" href="https://ankiweb.net/account/other">Basic phone mode</a>
+        </p>
+
+    <p>
+        <a target="_parent" href="https://ankiweb.net/study/options">Options</a>
+    </p>
+
+</div>
+
+<div id="quiz" style="display: block;">
+    <span id="leftStudyMenu"><a class="btn btn-secondary" onclick='study.saveThenGoto("/edit/1585780037254")'>Edit</a>  <a class="btn btn-secondary disabled" title="Save recent answers" onclick="return study.save();">Save</a>
+  <button class="btn btn-secondary" type="button" title="Bigger text" onclick="study.bigger();">+</button>
+  <button class="btn btn-secondary" type="button" title="Smaller text" onclick="study.smaller();">-</button>
+</span>
+    <span id="rightStudyMenu"><font color="#0000ff">0</font> + <font color="#990000">5</font> + <u><font color="#009900">24</font></u></span>
+    <div style="clear: both;" class="pt-1"></div>
+
+    <div id="qa_box" class="card card1">
+        <div id="activity" class="invisible"><img src="PT.4a_files/activity.gif"></div>
+        <div id="qa"><style>.card {
+ font-family: arial;
+ font-size: 20px;
+ text-align: center;
+ color: black;
+ background-color: white;
+}
+</style>What is the name of the lookout near the Thomas family farm.</div>
+        <br>
+    </div>
+    <div id="ansarea-pad"></div>
+    <div id="ansarea">
+        <div id="ansbut" class="row justify-content-center">
+            <div class="col-auto">
+                <div class="pt-3"></div>
+                <button id="ansbuta" class="btn btn-primary btn-lg" onclick="return study.drawAnswer();">Show Answer</button>
+            </div>
+        </div>
+        <div id="easebuts" class="row justify-content-center invisible"><center><table><tbody><tr><td valign="top" align="center">
+&lt;⁨10⁩m<br><button id="ease1" class="btn btn-secondary btn-lg" onclick="study.answerCard(1);">Again</button></td><td valign="top" align="center">
+⁨3.7⁩mo<br><button id="ease2" class="btn btn-secondary btn-lg" onclick="study.answerCard(2);">Hard</button></td><td valign="top" align="center">
+⁨9.7⁩mo<br><button id="ease3" class="btn btn-primary btn-lg" onclick="study.answerCard(3);">Good</button></td><td valign="top" align="center">
+⁨1.5⁩y<br><button id="ease4" class="btn btn-secondary btn-lg" onclick="study.answerCard(4);">Easy</button></td></tr></tbody></table></center></div>
+    </div>
+</div>
+
+<div class="form-group"></div>
+
+
+
+</main>
+
+
+<script src="PT.4a_files/vendor.js" type="text/javascript"></script>
+<script src="PT.4a_files/app.js" type="text/javascript"></script>
+<script src="PT.4a_files/tether.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="PT.4a_files/bootstrap.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script>require("babel-polyfill");</script>
+
+
+    <script>
+        var _host = "https://ankiweb.net";
+        var _ihost = "https://ankiuser.net";
+        study = require("study").default;
+    </script>
+
+
+
+</body></html>

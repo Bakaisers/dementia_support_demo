@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Peter Twerp Memoire</title>
+        
+        <meta name="robots" content="noindex" />
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Admins or editors, READ ME FIRST! </a></li><li class="chapter-item expanded "><a href="Intro.html"><strong aria-hidden="true">2.</strong> Intro</a></li><li class="chapter-item expanded "><a href="FamilyHistory.html"><strong aria-hidden="true">3.</strong> Family history summary</a></li><li class="chapter-item expanded "><a href="1stAge.html"><strong aria-hidden="true">4.</strong> Epochs: The First Age: Learning</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Alawoona.html"><strong aria-hidden="true">4.1.</strong> Alawoona</a></li><li class="chapter-item expanded "><a href="JoslinAdelaide.html"><strong aria-hidden="true">4.2.</strong> Joslin</a></li><li class="chapter-item expanded "><a href="EastAdelaidePrimary.html"><strong aria-hidden="true">4.3.</strong> East Adelaide Primary</a></li><li class="chapter-item expanded "><a href="AdelaideBoysHighSchool.html"><strong aria-hidden="true">4.4.</strong> Adelaide Boys High School</a></li><li class="chapter-item expanded "><a href="SAITComputing.html"><strong aria-hidden="true">4.5.</strong> SAIT Computer Studies</a></li></ol></li><li class="chapter-item expanded "><a href="2ndAge.html"><strong aria-hidden="true">5.</strong> Epochs: The Second Age: Working</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="SALandsDept.html"><strong aria-hidden="true">5.1.</strong> SA Lands Dep't</a></li><li class="chapter-item expanded "><a href="London.html"><strong aria-hidden="true">5.2.</strong> London</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="FNBC.html"><strong aria-hidden="true">5.2.1.</strong> First National Bank of Chicago</a></li></ol></li><li class="chapter-item expanded "><a href="SydneyAndFairfax.html"><strong aria-hidden="true">5.3.</strong> Sydney and Fairfax publishing</a></li><li class="chapter-item expanded "><a href="Canberra.html"><strong aria-hidden="true">5.4.</strong> Canberra</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Apple.html"><strong aria-hidden="true">5.4.1.</strong> Apple Computer Canberra</a></li><li class="chapter-item expanded "><a href="WebTrax.html"><strong aria-hidden="true">5.4.2.</strong> WebTrax</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="3rdAge.html"><strong aria-hidden="true">6.</strong> Epochs: The Third Age: Ageing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="CanadaTrip.html"><strong aria-hidden="true">6.1.</strong> Canada trip</a></li><li class="chapter-item expanded "><a href="NewZealandTrip.html"><strong aria-hidden="true">6.2.</strong> New Zealand trip</a></li></ol></li><li class="chapter-item expanded "><a href="Interests.html"><strong aria-hidden="true">7.</strong> Interests and Activities</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Cars.html"><strong aria-hidden="true">7.1.</strong> Cars</a></li><li class="chapter-item expanded "><a href="Motorbiking.html"><strong aria-hidden="true">7.2.</strong> Motorbikes</a></li><li class="chapter-item expanded "><a href="MartialArts.html"><strong aria-hidden="true">7.3.</strong> Martial arts</a></li><li class="chapter-item expanded "><a href="Singing.html"><strong aria-hidden="true">7.4.</strong> Singing</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Peter Twerp Memoire</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>This folder is the container for the biography of Peter Twerp, born in Adelaide a long time ago.</p>
+<hr />
+<h2><a class="header" href="#book-build-instructions" id="book-build-instructions">Book Build instructions</a></h2>
+<p>You need the program <em>mdbook</em> to build and serve the book. It can be found at https://github.com/rust-lang/mdBook. Add the binary path to your <em>path</em> or <em>env</em> variable. See below for details on installing Rust, if required.</p>
+<p>To build the book after dst/memoir/src content has been changed, 
+cd dst/memoir
+mdbook serve</p>
+<p>This builds the 'book' content in dst/memoir/book.</p>
+<p>The memoir will then be available by fetch at http://localhost:3000/</p>
+<p>While mdbook is running, any changes to src files will automatically trigger a rebuild of the book files. So, eg, if a new memory is added to one of the files, and the file is saved, the book will be updated immediately. </p>
+<p>If the change involves, say, new src files, and changes to the SUMMARY.md table of contents, it is probably better to NOT have mdbook running. This will save having any inconsistencies between the table of contents and the built chapters.</p>
+<h2><a class="header" href="#installing-rust" id="installing-rust">Installing Rust</a></h2>
+<p>Rust installation page: https://www.rust-lang.org/tools/install
+Rust home page: https://www.rust-lang.org/
+Rust documentation: https://www.rust-lang.org/learn</p>
+<h2><a class="header" href="#install-mdbook" id="install-mdbook">Install mdbook</a></h2>
+<p>If you just want to run mdbook, you can download the binary, and install it by adding the binary to your <em>path</em> or <em>env</em> variable.</p>
+<p>If you want to modify the structure of the book that is created, then you will need better to download the source and compile it with Rust.</p>
+<ul>
+<li>Download and Compile mdbook using the Rust package manager cargo (installed when Rust is installed). <em>cargo install mdbook</em></li>
+<li>Add mdbook binary to your <em>path</em> (eg /home/peter/.cargo/bin)</li>
+</ul>
+<h2><a class="header" href="#notes-for-developers" id="notes-for-developers">Notes for developers</a></h2>
+<p>mdBook can be run as a standalone binary, or it can be accessed as a static C library which could be compiled into Flutter or Rust business logic. This option may give us better options for tailoring the output than just using the standalone binary. </p>
+<p>On the flip-side the binary does have the option of adding 'plug-ins' into mdbook to change the processing and/or output formats of the book. But I presume similar things can be done via the API.</p>
+<p>If we end up having to use the 'web view' functionality in Flutter to show external web pages, we might as well embed mdbook into the core code as it will be able to use the web view without any extra memory or process requirements.</p>
+<h1><a class="header" href="#intro" id="intro">Intro</a></h1>
+<p>Hi, I am, or was, depending on when you read this, Peter Twerp, born 1/2/1931 in Adelaide.</p>
+<p>And that's the last time you will see a potentially ambiguous date written in this book. I was born 1931-01-02. Totally unambiguous, whether you are Australian, American, or any other species.</p>
+<h2><a class="header" href="#purpose" id="purpose">Purpose</a></h2>
+<p>What to expect from this book. Basically a succinct (hopefully) history of my life, plus my thoughts on the whole 'life' thing. </p>
+<p>I'm someone who has not kept diaries regularly during my life (and most of them were event based or work diaries, not personal). I've had to use my memory (not good at the best of times) and then pick up memory joggers from my work diaries, or photo collections as prompts as to what I was doing at various times during my life. </p>
+<h1><a class="header" href="#family-history-summary" id="family-history-summary">Family history summary</a></h1>
+<h2><a class="header" href="#the-thomas-line" id="the-thomas-line">The Thomas line</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a interdum odio. Nunc massa ipsum, consectetur vel mauris id, cursus elementum orci. Nam interdum pharetra lobortis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+<p>My paternal grandmother, ??, came from Ireland. </p>
+<p>Aenean tincidunt leo et leo malesuada, ac ornare augue condimentum. Proin libero magna, vehicula et quam nec, pharetra ullamcorper eros. Mauris quis neque ac diam placerat lacinia. Nam ut mollis lorem. Sed vehicula orci eu purus imperdiet, et consequat lectus sollicitudin. Sed in lorem ullamcorper, posuere sapien eget, semper mi. Praesent ornare nisl ligula, id auctor ipsum condimentum et. Nullam venenatis ipsum ligula, vitae tincidunt felis ullamcorper vitae.</p>
+<p>The story goes that Sam wanted to marry her, but she wasn't having any of it, unless they moved somewhere better. She also wasn't going to have any kids. So they moved to SA and had 4 kids!</p>
+<h2><a class="header" href="#the-irish-opportunity-lost" id="the-irish-opportunity-lost">The Irish opportunity lost</a></h2>
+<p>One interesting story about my uncles down in Malinong was that our grand-mother's family, having started with about 12 children, had dwindled away due to not marrying, or moving overseas. </p>
+<p>In the end, there was noone who wanted to take on the family farm (a very small farm) and so they decided to offer it to one of my uncle's, probably Horace as he was the oldest son, but I can't be sure. </p>
+<p>He apparently made some comment like 'why would I want to go over there' before dismissing the idea out of hand.</p>
+<p>He obviously hadn't seen the place, and probably had no idea what it was like. It is in County Cork, not far from Blarney Castle, and just gorgeous green country, with little streams running past and cute stone bridges. </p>
+<p>But he was probably right to reject it, as the farm would have been way too small to support any number of people, even though he never married. </p>
+<h2><a class="header" href="#the-chapman-line" id="the-chapman-line">The Chapman line</a></h2>
+<p>Similarly, Mum <a href="https://www.wikitree.com/wiki/Chapman-6585">Harriet May Chapman</a> came from a farm 10k?? out of Dawson, which is 30k?? from Peterborough, close to  (but outside of!) <a href="https://en.wikipedia.org/wiki/Goyder&#x27;s_Line">Goyder's Line</a> which defined where the average rainfall became less than enough to support cropping. So, it was also not prime land. </p>
+<p>Quisque a orci sed lacus auctor viverra sed id mi. Aenean imperdiet nibh vitae maximus rhoncus. Curabitur ac ante congue sapien sagittis semper. Donec elementum, mauris sagittis pellentesque euismod, magna orci cursus sapien, sit amet pretium erat purus sed neque. </p>
+<p>Donec nec nulla eleifend, tincidunt orci in, lobortis nisl. Pellentesque suscipit quam ligula, vel imperdiet ipsum ultrices ut. Donec consequat suscipit nibh, eget varius urna suscipit et. Nam ullamcorper dolor ac tortor euismod, vitae euismod augue ultricies. Morbi laoreet eleifend lectus sed suscipit. </p>
+<p>Etiam eget elit at est vestibulum tempor at non nibh. Fusce eu lorem sem. Sed ut maximus nisl, non aliquet elit. Sed nec sapien erat. Mauris aliquet aliquet metus, dapibus molestie mauris dapibus sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<img src="https://www.wikitree.com/photo.php/f/fa/Chapman-6585.jpg"/>
+<p>This reminds me more of a scene from the Irish famine than a farm in Australia, but it gives you a good idea of the conditions at the time. </p>
+<p>My Uncle Eric Chapman was the last relative on that farm. When Grandpa Chapman died (Grandma was already dead) Eric was bequeathed the farm, but he had to pay out the shared value to the other siblings. We have a letter in which Eric writes back to Mum, thanking her profusely for helping him out by returning her inheritance, as I'm sure he didn't have a lot of money and buying out the siblings would have been a challenge. Mum didn't have a lot either, but she obviously thought Eric deserved it more than she did. </p>
+<p>There are quite a few Chapman descendants spread around SA, NSW and Queensland that I know of. More detail on Wikitree. One thing you may not notice is that a lot of them were know by their middle name, not their first Christian Name. No idea why.</p>
+<h1><a class="header" href="#the-first-age-learning" id="the-first-age-learning">The First Age: Learning</a></h1>
+<p>For this section of the book I've decided to split it into 3 parts, much like the University of the Third Age does, ie the first age from birth through to the end of formal study, second age from entering the work force through to leaving the work force, and third age, that gentle time of relaxation while the rest of the world works to support you. Not!</p>
+<p>The time frame for the first age is 1931 to 1958ish.</p>
+<h2><a class="header" href="#basic-facts-about-me" id="basic-facts-about-me">Basic facts about me</a></h2>
+<p>I was born to parents ?? on 19??-??-??. I died on 20??-??-??. Not sure when I died, but I assume someone else will take the trouble to fill that in. </p>
+<p>One could say I was a 'mistake', as my 4 elder siblings were nicely spaced out 2 years apart, and I appeared 6 years after the youngest of them. I never heard if it was a deliberate mistake or not, but from my point of view it was a great mistake for them to make, and I am eternally grateful to them for being fallible. </p>
+<h2><a class="header" href="#me-in-one-paragraph" id="me-in-one-paragraph">Me in one paragraph</a></h2>
+<p>I've had a very good life, compared to the vast majority of the population of this planet. I've lived in one of the best countries in the world, in relative prosperity, through mainly peaceful times, to loving parents, grew up in a stable family, had my own stable family, good jobs, good activities. And my personal path through this life has had far more luck than misfortune, success than failure, good experiences vs bad, etc etc??</p>
+<p><em>And if you doubt the veracity of any of the above statements about the state of the world I urge you to read Matt Ridley's articles about how the last 30 years have been 'the best' that this planet has ever experienced. Note, not 'perfect', but 'the best'. Then objectively match up the facts against your own world view.</em></p>
+<h2><a class="header" href="#early-life-events-impact-on-your-future" id="early-life-events-impact-on-your-future">Early life events impact on your future</a></h2>
+<p>Quisque a orci sed lacus auctor viverra sed id mi. Aenean imperdiet nibh vitae maximus rhoncus. Curabitur ac ante congue sapien sagittis semper. </p>
+<p>Donec elementum, mauris sagittis pellentesque euismod, magna orci cursus sapien, sit amet pretium erat purus sed neque. Donec nec nulla eleifend, tincidunt orci in, lobortis nisl. Pellentesque suscipit quam ligula, vel imperdiet ipsum ultrices ut. Donec consequat suscipit nibh, eget varius urna suscipit et. Nam ullamcorper dolor ac tortor euismod, vitae euismod augue ultricies. Morbi laoreet eleifend lectus sed suscipit. </p>
+<p>Etiam eget elit at est vestibulum tempor at non nibh. Fusce eu lorem sem. Sed ut maximus nisl, non aliquet elit. Sed nec sapien erat. Mauris aliquet aliquet metus, dapibus molestie mauris dapibus sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<h1><a class="header" href="#alawoona" id="alawoona">Alawoona</a></h1>
+<p>Quisque a orci sed lacus auctor viverra sed id mi. Aenean imperdiet nibh vitae maximus rhoncus. Curabitur ac ante congue sapien sagittis semper. Donec elementum, mauris sagittis pellentesque euismod, magna orci cursus sapien, sit amet pretium erat purus sed neque. </p>
+<p>Donec nec nulla eleifend, tincidunt orci in, lobortis nisl. Pellentesque suscipit quam ligula, vel imperdiet ipsum ultrices ut. Donec consequat suscipit nibh, eget varius urna suscipit et. Nam ullamcorper dolor ac tortor euismod, vitae euismod augue ultricies. Morbi laoreet eleifend lectus sed suscipit. Etiam eget elit at est vestibulum tempor at non nibh. Fusce eu lorem sem. Sed ut maximus nisl, non aliquet elit. Sed nec sapien erat. </p>
+<p>Mauris aliquet aliquet metus, dapibus molestie mauris dapibus sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<h1><a class="header" href="#joslin" id="joslin">Joslin</a></h1>
+<h3><a class="header" href="#decision-making-by-soap-holder" id="decision-making-by-soap-holder">Decision making by soap holder</a></h3>
+<p>Quisque a orci sed lacus auctor viverra sed id mi. Aenean imperdiet nibh vitae maximus rhoncus. Curabitur ac ante congue sapien sagittis semper. </p>
+<p>Donec elementum, mauris sagittis pellentesque euismod, magna orci cursus sapien, sit amet pretium erat purus sed neque. Donec nec nulla eleifend, tincidunt orci in, lobortis nisl. Pellentesque suscipit quam ligula, vel imperdiet ipsum ultrices ut. Donec consequat suscipit nibh, eget varius urna suscipit et. </p>
+<h3><a class="header" href="#broken-right-arm" id="broken-right-arm">Broken right arm</a></h3>
+<p>Nam ullamcorper dolor ac tortor euismod, vitae euismod augue ultricies. Morbi laoreet eleifend lectus sed suscipit. Etiam eget elit at est vestibulum tempor at non nibh. Fusce eu lorem sem. Sed ut maximus nisl, non aliquet elit. Sed nec sapien erat. Mauris aliquet aliquet metus, dapibus molestie mauris dapibus sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<p>Nunc vehicula et augue eu semper. Curabitur finibus, metus quis tincidunt elementum, tellus dolor pulvinar leo, at commodo nulla orci ac purus. Ut velit nisl, tristique a purus ac, tempor blandit urna. Vestibulum id justo id lorem bibendum tincidunt. Vestibulum imperdiet metus nibh, id porta lorem cursus sed. Morbi sed commodo dui. Praesent dolor dui, tincidunt at consectetur sit amet, lacinia sit amet turpis. Proin interdum est aliquet libero consequat, sit amet semper tortor mollis. Duis sit amet efficitur turpis, sit amet placerat odio. Cras pharetra scelerisque nisi fringilla volutpat. Praesent ac varius justo, a fringilla libero. Phasellus vel urna vel sapien euismod sodales a quis sem. Etiam semper neque vitae congue congue. Etiam lacus purus, auctor quis egestas ac, accumsan a orci. Duis vehicula ac urna quis rutrum. Fusce sit amet orci ut tellus elementum fermentum eu id lectus.</p>
+<h3><a class="header" href="#old-fruit-trees" id="old-fruit-trees">Old fruit trees</a></h3>
+<h3><a class="header" href="#cellar" id="cellar">Cellar</a></h3>
+<p>The old house had a small cellar beneath it. It was a welcome relief for the summer heat-waves that regularly hit Adelaide. The cellar would still be cool after 3 or 4 days of extreme heat outside. But it was quite cramped, so not the most comfortable place to reside.</p>
+<p>Mum received a Christmas parcel from the Nankivell's(??) who ran the general store in Alawoona. We received them for a few years, much to my delight as they contained the biggest box of chocolates I'd ever seen. And given they couldn't all be eaten at once, they were stored down in the cellar. Needless to say there were a few errant trips down into the cellar to raid the chocolate box, although I had to be restrained as I new Mum would pick up any major drop in the number of chocolates. She may have noticed, but never said anything.</p>
+<h1><a class="header" href="#east-adelaide-primary" id="east-adelaide-primary">East Adelaide Primary</a></h1>
+<h2><a class="header" href="#adelaide-boys-high-school-abhs" id="adelaide-boys-high-school-abhs">Adelaide Boys High School (ABHS)</a></h2>
+<p>Due to Education Dep't zoning regulations, I ended up having to go to ABHS on the West Tce side of Adelaide, which meant I parted from friends from primary school who were sent to high schools in the East. This included my best friend from primary school, Gary Pitman, as he had to go the new Klemzig High School??.</p>
+<h2><a class="header" href="#sa-institute-of-technology-computer-studies-degree" id="sa-institute-of-technology-computer-studies-degree">SA Institute of Technology Computer Studies degree</a></h2>
+<p>When I decided that I needed to leave the Highways Dept job, I got hold of the application form for SAIT, and found they did a range of engineering courses that I was interested in. But you had to put down 4 choices in order of preference.</p>
+<p>Well, I put down Mechanical Engineering, Electrical Engineering, Electronic Engineering as my first 3 choices. Which in retrospect I'm sure would have been a total disaster, just like at the Adelaide Uni. </p>
+<p>But I had to put down a 4th option, so I scanned the list, saw Computer Studies as an option, and thought 'why not, that should be interesting'. But really, I knew nothing about it.</p>
+<p>I'm assuming that SAIT looked at my previous record, and probably check the Adelaide Uni results, and said &quot;no way he's doing engineering here&quot;. So, I got a call from someone from the Computer Studies area to say I had been accepted by them. My response was something like &quot;What's it about&quot;, to which he replied &quot;Well its probably easier to come along and try it, than for me to explain it&quot;. He said they had an aptitude test in the first week, and I could always pull out if I didn't like it.</p>
+<p>So, I put in my resignation with the Lands Dept, and headed off to SAIT. I ended up getting 98 or similar for the aptitude tests, and thought the initial lectures quite logical and interesting. I stayed on, and I loved it. No complicated science or mathematics, just plain logic and common sense. </p>
+<h1><a class="header" href="#the-second-age-working" id="the-second-age-working">The Second Age: Working</a></h1>
+<p>The time frame: ???? to ????ish.</p>
+<p>Most of this epoch will be covered with separate topics that follow.</p>
+<h2><a class="header" href="#sa-lands-dept" id="sa-lands-dept">SA Lands Dept</a></h2>
+<h3><a class="header" href="#land-ownership-and-title-system-lots" id="land-ownership-and-title-system-lots">Land Ownership and Title System (LOTS)</a></h3>
+<p>My first job after graduating from the Computer Studies degree, was with the SA Lands Department. </p>
+<p>I wasn't too sure where I wanted to go, but I was confident that my knowledge and skills learnt doing the degree had made me very 'employable'. Jobs were fairly plentiful, even though SA was a small state, so had limited companies doing big IT jobs. </p>
+<h2><a class="header" href="#overseas-london-based" id="overseas-london-based">Overseas, London based</a></h2>
+<p>I must have still been seeing Julie socially, and mentioned my thoughts on going overseas. She said she had wanted to do something similar, but as a holiday, not a change of life thing. She had to continue teaching, and had long-service leave coming up. That gave her about 8 weeks to spend on the trip. She was also much happier about travelling with someone she trusted as a friend. </p>
+<p>We started planning the big trip. It involved starting with a cruise ship from Aus to Singapore, followed by a cut-price flight from Singapore to London.</p>
+<h1><a class="header" href="#first-national-bank-of-chicago-fnbc" id="first-national-bank-of-chicago-fnbc">First National Bank of Chicago (FNBC)</a></h1>
+<p>Then an ad appeared for a job on Tandem Computers. It was like it had been written for me. It was at the London Branch of the First National Bank of Chicago (FNBC), one of the top 10 banks in the world at the time. </p>
+<p>And they were jumping into using Tandems in a big way. They had branches all around the world, and individual computers in each country that really didn't talk to each other. A lot of the branches used the small Burroughs computers, or NCR. Managing all these branches all operating in different currencies was a nightmare that they intended to fix by using a fully networked set of Tandem computers at every branch. They would develop one banking system that could fully operate in dual currencies, local and US dollars. And all information needed could be transmitted to head office as needed. </p>
+<h2><a class="header" href="#sydney" id="sydney">Sydney</a></h2>
+<h3><a class="header" href="#james-fairfax--sons-saga" id="james-fairfax--sons-saga">James Fairfax &amp; Sons saga</a></h3>
+<p>I had arranged the job with Fairfax from London. There were very few IT people in Aus with experience on Tandem Computers, so they were keen to get me back to Aus. I started on contract for 6 months, and the contract ended up being extended for about 5 years. </p>
+<h3><a class="header" href="#why-tandem" id="why-tandem">Why Tandem</a></h3>
+<p>One of the main reasons that Fairfax had chosen the SII publishing system was due to the awful time they had had using the current DEC mini-computer based system. Not that there was anything wrong with the hardware, but the software was being developed by a very small company in Sydney?? and was not fit for the task. </p>
+<p>This made them very nervous about the capabilities of the new system. They wanted everything tested before it went live, to prove that it was capable of handling the load. </p>
+<h3><a class="header" href="#the-old-publishing-system" id="the-old-publishing-system">The old publishing system</a></h3>
+<p>To give you an idea of how bad the old system was, when I started on the job, I noticed there were red and green lights in the ceilings of most rooms containing editorial or classified ads staff. They would randomly switch from green to red and vice versa. I just assumed they were part of the production process telling people when to do stuff. </p>
+<p>No, it was a warning system to tell staff that the main computer system was becoming overloaded and would probably crash in the next minute or two. And how did they fix the problem. They had a second fully operational version of the system on 'standby', being kept up-to-date by file duplication from one machine to the other. But there were always going to be articles being worked on that needed to be saved if the machine was about to die.</p>
+<p>So they wired up one of the keys on the keyboard to effectively operate a switch to disconnect the terminal from the main machine and reconnect it to the backup machine. They could then 'save' the data direct to the backup machine. </p>
+<p>Once the main machine's load had reduced they could flick back to it, and resave the document to the main machine. </p>
+<p>It was some time before I found out that is what the lights were for, and I had trouble believing it. But even later I got to see some of the wiring in the ceilings, and it was horrendous due to the duplication of connections. It got even worse after we installed the new system as it also had to be duplicated cabling.</p>
+<h1><a class="header" href="#canberra" id="canberra">Canberra</a></h1>
+<p>We had a trip down to Canberra to visit Gail, and check out the situation there. It all appeared good, the decision was made, my contract with Fairfax ended and we moved to Canberra. </p>
+<p>We kept the house in Gordon, and bought a little house at Kippax, in the outer suburbs of Canberra. It was relatively cheap so we figured we wouldn't lose any money on it if we had to sell in a year or two's time. That decision made life a little difficult a year later.</p>
+<h2><a class="header" href="#apple-computer-canberra" id="apple-computer-canberra">Apple Computer Canberra</a></h2>
+<p>Apple in Canberra did not sell computers directly, it operated to support the Apple dealers in town. At this time they were hoping to break into the 'enterprise' market using the Mac as the desktop machine to replace PCs. An ambitious goal given the price difference between the two, and the known tendency of Government departments to go for the lowest tender price for everything.</p>
+<p>I was going in as a 'Systems Engineer', not that I had any idea what that meant. I learnt. There was little or no programming, but I was there to 'architect' the solutions we needed to pitch. And then 'sell' them technically to the potential client. </p>
+<p>My first issue was getting on top of the capabilities and requirements of the available Macintosh models. Which took some time, but I managed to look like I knew what I was doing, even if I didn't.</p>
+<h2><a class="header" href="#webtrax" id="webtrax">WebTrax</a></h2>
+<p>I now had to set up a company, work out how to do the finances, get development machines and an Internet connection.</p>
+<p>But the first thing you need to do when setting up your own company is find a good name! I'm not very creative as anyone will tell you, so it was always going to be a 'functional' name. Even at that early time in the Web, I had trouble finding a name that was different and appropriate. </p>
+<p>I went through lists and lists of names, and typically just when I thought I had a good one, I would find that there was a big company in the US with the same name. A real drag.</p>
+<h1><a class="header" href="#the-third-age-ageing" id="the-third-age-ageing">The Third Age: Ageing</a></h1>
+<p>The time frame: 2010ish to the endish.</p>
+<h1><a class="header" href="#canada-trip" id="canada-trip">Canada trip</a></h1>
+<h2><a class="header" href="#part-1-east-coast" id="part-1-east-coast">Part 1, East Coast</a></h2>
+<p>Jacki and I had thought about taking another trip oversees. We both had a preference for anglo-saxon destinations. I was getting too old to handle the hassles of different languages, currencies etc.</p>
+<p>So we thought a trip that combined seeing Canada with catching up with Stefan Schaefer at their holiday house on Vancouver Island, or down in Cupertino, made sense.</p>
+<h1><a class="header" href="#new-zealand-trip" id="new-zealand-trip">New Zealand trip</a></h1>
+<p>This was one of those &quot;you sure can pick'em&quot; trips. </p>
+<p>We flew direct to Wellington on the ?? and spent ?? days travelling around the North Island sight-seeing.</p>
+<p>TBC??</p>
+<p>On the 13th we decided to book into a hotel near the ferry terminal, so that we could drop off the hire car and get straight on the ferry.</p>
+<h2><a class="header" href="#the-kaikoura-earthquake" id="the-kaikoura-earthquake">The Kaikoura Earthquake</a></h2>
+<p>I'll just give you the 'highlight' of the trip, the massive earthquake that hit the South Island on 2016-11-14 at 2 minutes past midnight, centred around Kaikoura, about 100k from the top of the South Island. </p>
+<p>It registered 7.8 on the scale, and according to <a href="https://en.wikipedia.org/wiki/2016_Kaik%C5%8Dura_earthquake">Wikipedia</a> was the &quot;most complex earthquake ever studied&quot;.</p>
+<p>And we were on the top floor of a 10 story high-rise building!</p>
+<p>Jacki and I had just booked a 2 night stay at Kaikoura which was a convenient distance down into the South Island, and hopped into bed about 10:30pm. We were woken must after midnight by solid vibrations in the bed. </p>
+<p>The bed was slotted into an alcove between the bathroom and the outside wall window with a panoramic view of the other high-rise buildings in Wellington.</p>
+<p>I happened to be on the window side, and recognised it as an earthquake fairly quickly. Both Jacki and I had been through a much smaller one in Cupertino some years before. </p>
+<p>I slid out the bed and sat on the floor between the bed and the wall. The window came down to about 400mm off the floor level, so we could still see directly out into the darkness. </p>
+<p>Jacki tried to walk around the bed to my side, and couldn't stand up without overbalancing. I told her to crawl around, which she did. </p>
+<p>By this time, the random shaking of the building had consolidated into a strong sway in the direction we were looking out the window. It was a weird experience, as you had no idea how much the building was flexing, but you could tell it was a good number of seconds between reaching one extreme and swaying back to the other extreme. </p>
+<p>It felt, and it may have just been my imagination, that each sway was getting a bit longer. All we could see was pitch black with lots of building and street lights in the distance. No way to judge the distance. </p>
+<p>Neither of us panicked, but mentally I was wondering how far these 'earthquake proof' buildings could bend before breaking. There was no point in worrying, if it went we were dead as a dodo. </p>
+<p>After 2 minutes (that felt like a lot longer) it slowly stopped swaying. A message came over the announcement system, to hold our places until further notice. </p>
+<p>Eventually we were cleared to exit our rooms, and descend down the stairs. This is when I found out how far these buildings can bend. The vertical plaster-board sheeting in the stairwell had tape that covered over the joins between each panel. Well from about the 4th floor up, the building had flexed that much that it tore the masking tape longitunally. That's some flexing.</p>
+<p>I had only chucked on a few clothes that were handy as I left, and we had to congregate in the street outside the hotel. It was a very cold night, so I was suffering, but I was better off than those who just ran out in their night attire. This is when I discovered the real benefit of mainly useless social media. Various people had looked up Twitter as soon as they got out, and were telling us exactly where the epicentre was, and various updates as they happened. </p>
+<p>The staff were very good. It took them sometime to sweep the whole building to ensure everyone was out. Several people came out later very sheepishly, having slept right through the earthquake and the announcements! The staff then found various items that people could use to keep them warmer.</p>
+<p>We had to wait outside for over an hour, while they checked the basic structure of the building to ensure it was safe. I'd say that was fairly self-evident, as it survived the earthquake, and from the outside there was no apparent damage, not even cracked windows. </p>
+<p>Eventually we were given the all-clear to go back into the hotel. And we could either go back to our rooms, or if we weren't comfortable doing that, we could have a makeshift bed in the main foyer. I think most went back to their rooms, we did.</p>
+<p>Going to sleep was another matter though. There had been a number of aftershocks while we were outside which hadn't worried us much, but it seemed to be inevitable that just as you were about to get to sleep another aftershock would come through, and you would be wide awake again. I think I got to sleep about 4 am. </p>
+<p>The next morning we heard that the ferry terminal pedestrian landing had been damaged, and they were only taking vehicles on-board, but then even that was cancelled as the ferry terminal on the South Island also had serious damage.</p>
+<p>We headed into town to get some food and drink. It was a bit spooky. All staff had basically been ordered not to come to work that day, there was no transport except your own vehicle, and all buildings were closed with rare exceptions. Also, a lot of the buildings had large numbers of cracked windows that had showered down onto the road and footpaths. </p>
+<p>This all presented a problem for us as we were looking for a public toilet, as you do. We tried everyone we could find on our maps, and all were completely locked up. There were no coffee shops etc open, so we couldn't even get to one there. I was beginning to think this was going to get embarrassing soon, but we found, by sheer luck, a cafe that had opened (I presume the owners lived in the building) and was serving nice breakfasts, and had a clean toilet. Salvation!</p>
+<p>The good news was that there were very little major structural damage to buildings in Wellington, but it was very obvious that we were not going to make it to the South Island. One of the main carparks had structural damage in several of its main pylons (and this was meant to be a recent earthquake proof building). The main damage was windows, glaziers must have been rubbing their hands with glee.</p>
+<p>We called into the hire car company CBD office, just as the employees were walking out, as they had been told to get out due to worries about the building. We just had time to ask them what we should do about the car, and their response was &quot;Do what you like, we don't care. We have thousands of cars stranded across NZ&quot;. We decided we would continue to explore more of the North Island, so we extended our hire, and booked back into the B&amp;B that we had originally been in. </p>
+<h2><a class="header" href="#back-to-normality-or-nz-normality-anyway" id="back-to-normality-or-nz-normality-anyway">Back to normality, or NZ normality anyway!</a></h2>
+<p>TBC??</p>
+<h1><a class="header" href="#my-interests-activities-beliefs-personal-stuff" id="my-interests-activities-beliefs-personal-stuff">My interests, activities, beliefs, personal stuff</a></h1>
+<p>This the section where I split my life up into topics based around significant interests and activities that I undertook. Ie, they are not really specific to any epoch, but were significant, I think.</p>
+<h1><a class="header" href="#cars" id="cars">Cars</a></h1>
+<h2><a class="header" href="#mums-fj-holden" id="mums-fj-holden">Mum's FJ Holden</a></h2>
+<p>Mum had kept the original FJ Holden we had when we first moved to Joslin. But as the olders siblings moved out, it was used less, and at some stage it suffered the common fate for the engine in the FJ, it stripped the timing gear which in those days was not metal but made out of some composite fibre. Mainly to keep noise down I guess, but longevity was not it's forte.</p>
+<p>I was a young teenager interested in mechanical things and wanted to fix it. But I had very limited tools. There was a hotch-potch of old tools in the garage, which by the way had a 'pit' in it. You could stand in the pit to work on the underside of the vehicle. As far as I know, the old corrugated iron garage is still there (or it was about 10 years ago when I last drove past) and probably still has the pit.</p>
+<p>I attempted to fix the timing gear but it was a total disaster, and in the end we had to give/sell the car to a wrecker. </p>
+<h1><a class="header" href="#motorbikin" id="motorbikin">Motorbikin'</a></h1>
+<p>The following sections cover my history with motorbikes. Not just the bikes, but the activities associated with them that still dwell in my memory. </p>
+<h2><a class="header" href="#honda-cb450" id="honda-cb450">Honda CB450</a></h2>
+<p>At about the time I started at Uni, early 1970, I received some money from Uncle Frank after he kindly died. It wasn't a lot, but it was enough to help me indulge my next fantasy of buying a motorcycle. </p>
+<p>I had no money to buy any good equipment, so I had to make do with basic clothes and gloves etc. I did have to buy a helmet, but everything else was repurposed civi clothes. One of which was my father's nice lined leather gloves (I presume) which I still have 50 years later, and use to handle wood when putting it into the fireplace. The other good bit of gear I got, was a lovely leather jacket, which I assume was also my father's. It was in pretty bad shape, very scuffed and faded, but good solid leather and lining. Mum decided to take it to ?? to be refurbished, and it came back looking beautiful, lovely soft leather, warm liner. It was a bit big for me (not hard when you're as skinny as I am) but I loved it. </p>
+<h1><a class="header" href="#martial-arts" id="martial-arts">Martial arts</a></h1>
+<p>I had an interest in martial arts from an early age, although information about them was quite limited (no Internet connection!)</p>
+<p>Like a lot of things I look at now, I wish I had found out about, say, Aikido much earlier in life, as I'm sure it would have had a very beneficial effect on my outlook on life, and my confidence to do some things. But as they say &quot;that's life&quot;.</p>
+<h2><a class="header" href="#kung-fu-the-tv-series" id="kung-fu-the-tv-series">Kung Fu, the TV series</a></h2>
+<p>David Carradine starred in the Kung Fu series in the 70s. It was a 'must watch' for me, as he did all these amazing feats of martial arts. It would be interesting to go back and watch them now to see if I would still be impressed.</p>
+<h2><a class="header" href="#singing-when-young" id="singing-when-young">Singing when young</a></h2>
+<p>As a youngster I joined the church choir, mainly to get out of religious instruction which younger people were required to do while their parents were in church. It was not something I enjoyed at all. I found it very 'preachy', much like the church services and didn't warm to it at all. I mean, some of the stories were good, and I probably learned some good principles of living from them, but I just didn't like the way it was presented. </p>
+<p>I think Mum suggested the choir, and I can remember going to the first rehearsal, and being shit scared that I wouldn't know what to do. After all these years, I can still remember one piece of instruction on the first night which was that you never pronounce heaven as 'hev-enn', it was always 'hev'n'. It has stood me in good stead many a time (joke).</p>
+<p>I did enjoy the singing, it came naturally, and I managed to learn the hymns and psalms quite easily. As compared to now, where I battle to learn new songs.</p>
+<p>My favourite times were when we got PAID to sing. This was normally only for weddings, which were being paid for by the couple getting married. But each year we also had a Carols night where we did the rounds of the surrounding suburbs visiting aged care places and singing to the residents. There was something very positive and lovely at those performances, and is one of the reasons why I am very happy to do them now. It is even more poignant now having lost Mum, John and Ath to dementia, to see their faces light up, even just a little as they recognise a song from their youth. </p>
+<p>I gave up singing in the church choir when I was about 12, as it was not something that I thought was cool, even though I enjoyed the singing. And like a lot of other things in life, I pulled out of it. To my detriment I now realise.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>

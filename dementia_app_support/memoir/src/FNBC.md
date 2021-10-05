@@ -1,0 +1,4 @@
+# First National Bank of Chicago (FNBC)
+Then an ad appeared for a job on Tandem Computers. It was like it had been written for me. It was at the London Branch of the First National Bank of Chicago (FNBC), one of the top 10 banks in the world at the time. 
+
+And they were jumping into using Tandems in a big way. They had branches all around the world, and individual computers in each country that really didn't talk to each other. A lot of the branches used the small Burroughs computers, or NCR. Managing all these branches all operating in different currencies was a nightmare that they intended to fix by using a fully networked set of Tandem computers at every branch. They would develop one banking system that could fully operate in dual currencies, local and US dollars. And all information needed could be transmitted to head office as needed. 
